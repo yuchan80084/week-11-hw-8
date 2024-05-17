@@ -18,7 +18,7 @@ void main()
 {
 	a b;
 	b.showx();  //public function
-	b.sety(30); //private data 변경
-	b.showx(); //private data 출력
+	b.sety(30); //change private data 
+	b.showx(); //print private data 
 	cout << b.showy() << endl;
 }
